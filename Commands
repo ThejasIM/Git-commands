@@ -17,8 +17,19 @@ git init
 //make changes in the folder
 git add .
 git commit -m ""
-git remote add origin <link>  // link from new repo
-git remote -v   // verfication
-git branch    //branch name
-git branch -M main  //rename branch
+git remote add origin <link>    // link from new repo
+git remote -v                   // verfication
+git branch                      //branch name
+git branch -M main              //rename branch
 git push origin main
+
+//////////////////////////////////////
+
+git diff        // diff in current vs previous commit
+git stash       // when you want to save chnages temporarily
+        git stash list
+        git stash clear     // to delete list
+        git stash apply x   // x is the no from the list
+        git stash pop       // to get the last saved back
+
+
