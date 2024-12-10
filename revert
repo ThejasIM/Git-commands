@@ -1,0 +1,3 @@
+// reverts the specified commit
+// we can use HEAD or commit_id from the log --oneline
+git revert HEAD~2
