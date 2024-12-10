@@ -1,1 +1,24 @@
-new.............
+git config --global user.name ""
+git config --global user.email ""
+
+
+git clone <link>
+
+git status
+git add .
+git commit -m ""
+git push origin main
+
+
+########To create new repo from git########
+
+//create folder
+git init
+//make changes in the folder
+git add .
+git commit -m ""
+git remote add origin <link>  // link from new repo
+git remote -v   // verfication
+git branch    //branch name
+git branch -M main  //rename branch
+git push origin main
