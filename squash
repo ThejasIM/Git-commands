@@ -1,0 +1,6 @@
+//this is used to combining multiple commits
+git rebase -i HEAD~4	//4 gets last 4 commits
+ then, pick to keep it as it is
+ else, replace pick with squash
+ then esc --> enter  --> :x -->enter
+ then, :x -->enter
