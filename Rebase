@@ -4,3 +4,14 @@
 git rebase main
 git checkout main
 git rebase  feature1
+
+//We can get the conflict as the merge conflict
+// We can choose which one to keep
+then,
+git add .
+git commit -m ""
+git rebase --continue	//after all the conflict resolved and we have done new commit
+
+// prefer merge over rebase
+//merge helps in history
+// use bebase for own self branch and merge for main branch
