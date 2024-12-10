@@ -1,0 +1,9 @@
+3 types
+1. soft
+2. mixed (default)
+3. hard
+
+git reset --soft HEAD~      //keeps the change go back to staged area(meaning git add . is done)
+                            //(HEAD~  means last commit)
+git reset               //keeps the change but goes back to working dir(meaning git add . is not done)
+git reset --hard HEAD~2 //deletes all the commits of HEAD 0,1and 2 and goes back to working dir
