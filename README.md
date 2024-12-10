@@ -1,2 +1,1 @@
-# first
-hgvhjdv
+ALL ABOUT GIT
