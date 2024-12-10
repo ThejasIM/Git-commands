@@ -1,0 +1,6 @@
+//Same as merge but the branch commits are attached on top of latest commit of main branch
+
+// in other branch (feature1)
+git rebase main
+git checkout main
+git rebase  feature1
