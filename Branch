@@ -6,6 +6,7 @@ git merge <branch name>     // merging to main branch
 git branch -d <name>        // delete branch locally only
     So,     git push origin main
             git push origin --delete <name>
+git branch -D <name>        // forcefull delete for not merged branches
 
 // if there is any changes in the main branch while we are dealing with the other branch we call 
 // get the chnages from the main branch using pull (We need to be in the other branch only)
