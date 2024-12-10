@@ -25,11 +25,26 @@ git push origin main
 
 //////////////////////////////////////
 
+git log --oneline
+
+/////////////////////////////////////
+
 git diff        // diff in current vs previous commit
 git stash       // when you want to save chnages temporarily
         git stash list
         git stash clear     // to delete list
         git stash apply x   // x is the no from the list
         git stash pop       // to get the last saved back
+
+
+///////////////// RESTORE /////////////////////
+
+git log --oneline 
+git restore <filename>          //restores to previous commit
+git restore --staged <filename> //restore from staged to working directory
+
+
+
+
 
 

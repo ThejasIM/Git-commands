@@ -1,0 +1,15 @@
+git branch <branch name>    //creates branch
+git checkout <branch name>  //switching bwt branches
+git branch                  // list of branches
+git merge <branch name>     // merging to main branch
+
+git branch -d <name>        // delete branch locally only
+    So,     git push origin main
+            git push origin --delete <name>
+
+// if there is any changes in the main branch while we are dealing with the other branch we call 
+// get the chnages from the main branch using pull (We need to be in the other branch only)
+
+git pull origin main
+    then,   git checkout main
+            git merge <branch name>
