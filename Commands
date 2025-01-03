@@ -31,7 +31,7 @@ git log --oneline
 /////////////////////////////////////
 
 git diff        // diff in current vs previous commit
-git stash       // when you want to save chnages temporarily
+git stash       // when you want to save changes temporarily
         git stash list
         git stash clear     // to delete list
         git stash apply x   // x is the no from the list

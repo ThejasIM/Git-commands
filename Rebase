@@ -14,4 +14,4 @@ git rebase --continue	//after all the conflict resolved and we have done new com
 
 // prefer merge over rebase
 //merge helps in history tracking
-// use bebase for own self branch and merge for main branch
+// use rebase for own self branch and merge for main branch
