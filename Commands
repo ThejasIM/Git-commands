@@ -43,9 +43,3 @@ git stash       // when you want to save chnages temporarily
 git log --oneline 
 git restore <filename>          //restores to previous commit
 git restore --staged <filename> //restore from staged to working directory
-
-
-
-
-
-
