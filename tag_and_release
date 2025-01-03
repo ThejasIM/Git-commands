@@ -1,0 +1,8 @@
+git tag <name>
+// To push the tag
+git push orgin <name>
+
+//Inside the tag you can create the release by giving the name and with discription
+// We can bounce back to previous tag for any reason, By doing this we also change the HEAD postion to the previous tag
+
+git checkout <name>
