@@ -1,0 +1,11 @@
+//Example if we take the command for clean looking history i.e.,
+git log --all --graph --decorate --oneline
+
+git config --global alias.<name of alias> "git log --all --graph --decorate --oneline"
+
+//now you can just call
+git <name of alias> 
+
+//these are all stored in 
+mate ~/.gitconfig
+

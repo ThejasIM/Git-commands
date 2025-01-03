@@ -1,0 +1,3 @@
+// To ignore the files and to not to add and commit 
+// We can create .gitignore file 
+// in which we can add the names of files or pattern which we want to be ignored
