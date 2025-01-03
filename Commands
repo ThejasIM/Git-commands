@@ -8,6 +8,7 @@ git status
 git add .
 git commit -m ""
 git push origin main
+git pull origin main
 
 
 ########To create new repo from git########
