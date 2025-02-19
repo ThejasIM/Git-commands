@@ -4,3 +4,4 @@ git rebase -i HEAD~4	//gets last 4 commits
  else, replace pick with squash
  then esc --> enter  --> :x -->enter
  then, :x -->enter
+ 
